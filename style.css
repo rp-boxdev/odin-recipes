@@ -1,0 +1,22 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  font-size: 40px;
+}
+
+ul#recipe-list {
+  background-color: rgb(106, 159, 209);
+}
+
+li.recipe-link {
+  list-style: none;
+  font-size: 18px;
+}
+
+li.recipe-link a {
+  text-decoration: none;
+}
