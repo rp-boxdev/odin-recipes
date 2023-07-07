@@ -1,22 +1,38 @@
 * {
   font-family: "Courier New", Courier, monospace;
+  box-sizing: border-box;
+  margin: auto;
 }
 
 h1 {
   background-color: black;
   color: white;
   font-size: 40px;
+  margin: 0 10px;
+  padding: 8px;
+  text-align: center;
 }
 
 ul#recipe-list {
   background-color: rgb(106, 159, 209);
+  padding: 18px;
+  margin: 0 10px;
+  text-align: center;
 }
 
 li.recipe-link {
+  display: inline-block;
   list-style: none;
-  font-size: 18px;
+  font-size: 20px;
+  margin: auto 20px;
+  /* border: 1px solid black; */
 }
 
 li.recipe-link a {
   text-decoration: none;
+  color: black;
+}
+
+li.recipe-link a:hover {
+  text-decoration: underline;
 }
